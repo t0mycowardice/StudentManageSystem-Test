@@ -1,0 +1,20 @@
+[
+  {
+    "desc": "课程名为空",
+    "cname": "",
+    "ccredit": 3,
+    "expect": "请输入名称"
+  },
+  {
+    "desc": "学分为空",
+    "cname": "自动化课程",
+    "ccredit": "",
+    "expect": "请输入学分"
+  },
+  {
+    "desc": "学分非数字",
+    "cname": "自动化课程",
+    "ccredit": "abc",
+    "expect": "请输入数字"
+  }
+]
